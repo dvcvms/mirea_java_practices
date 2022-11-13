@@ -42,8 +42,4 @@ public class Ball {
     public String toString() {
         return "color: " + this.color + ", diameter: " + this.diameter;
     }
-
-    public void getDiametr() {
-        System.out.println("diameter is " + diameter * 2);
-    }
 }
